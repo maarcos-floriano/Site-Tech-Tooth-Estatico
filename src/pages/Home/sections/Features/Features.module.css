@@ -1,0 +1,31 @@
+.features{
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+
+    & .features__title{
+        margin-top: 30px;
+        
+        h1{
+            font-size: 3.5rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        h2{
+            font-size: 2.0rem;
+            font-weight: 200;
+            text-align: center;
+        }
+
+    }
+
+    & .features__cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+}

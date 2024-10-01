@@ -1,0 +1,29 @@
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    transition: transform 0.3s;
+    font-family: 'Montserrat', sans-serif;
+
+    & .feature-card__icon{
+        font-size: 3rem;
+        color: var(--primary-color);
+    }
+
+    & .feature-card__title{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+
+    & .feature-card__description{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+.feature-card:hover{
+    transform: translateY(-10px);
+}

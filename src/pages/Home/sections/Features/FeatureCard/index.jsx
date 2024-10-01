@@ -1,12 +1,17 @@
+import React from "react";
 import PropTypes from "prop-types";
+import styled from "./FeatureCard.module.css";
+import { Container } from "@mui/material";
 
 const FeatureCard = ({ title, description, icon }) => {
   return (
-    <div className="feature-card">
-      <div className="feature-card__icon">{icon}</div>
-      <h3 className="feature-card__title">{title}</h3>
-      <p className="feature-card__description">{description}</p>
-    </div>
+    <Container maxWidth='sm'>
+      <div className={styled["feature-card"]}>
+        {React.cloneElement(icon, { className: styled["feature-card__icon"] })}
+        <h3 className={styled["feature-card__title"]}>{title}</h3>
+        <p className={styled["feature-card__description"]}>{description}</p>
+      </div>
+    </Container>
   );
 };
 

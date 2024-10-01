@@ -1,4 +1,6 @@
 import Navbar from "../../components/NavBar";
+import About from "./sections/About";
+import Features from "./sections/Features";
 
 const Home = () => {
 
@@ -14,6 +16,8 @@ const Home = () => {
   return (
     <>
         <Navbar items={urls}/>
+        <About/>
+        <Features/>
     </>
   );
 };

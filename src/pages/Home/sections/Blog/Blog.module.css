@@ -1,0 +1,40 @@
+.blog{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3rem 0;
+
+    .blog-title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        h1{
+            align-items: center;
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+        }
+
+        h2{
+            font-size: 1.2rem;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 1.5rem;  
+        }
+    }
+
+    .blog-news-card{
+        width: 100%;
+        padding: 0 6%;
+        display: flex;
+        gap: 3%;
+    }
+}

@@ -1,0 +1,55 @@
+.card_line {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: baseline;
+    height: 230px;
+    font-family: 'Montserrat', sans-serif;
+    
+    .card {
+        height: 100%;
+        width: 100%;
+        background-color: #EDEDED;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        flex-direction: column;
+        transition: 1s;
+
+
+        h3 {
+            text-align: center;
+            width: 100%;
+            height: fit-content;
+            padding: 4% 0;
+            align-items: center;
+            background-color: #007BFF;
+            font-size: 300;
+            font-size: 1.3rem;
+            color: #ffffff;
+        }
+
+        h4 {
+            font-weight: 600;
+            font-size: 1.5rem;
+            width: 100%;
+            text-align: center;
+            margin: 5% 0;
+            color: #595C5F;
+
+
+            span {
+                color: black;
+            }
+        }
+
+
+        p {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            padding: 1% 3%;
+            font-size: 0.9rem;
+        }
+    }
+}

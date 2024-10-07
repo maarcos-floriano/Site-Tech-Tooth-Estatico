@@ -1,4 +1,4 @@
-import FeatureCard from './FeatureCard';
+import FeatureCard from '../../../../components/Cards/FeatureCard/FeatureCard';
 import style from './Features.module.css';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';

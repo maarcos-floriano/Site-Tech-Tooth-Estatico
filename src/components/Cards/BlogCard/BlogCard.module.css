@@ -1,0 +1,36 @@
+.card_line{
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid gray;
+    border-radius: 6px;
+
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .card_text{
+        display: flex;
+        flex-direction: column;
+        background-color: #EDEDED;
+        padding: 3% 6%;
+        justify-content: baseline;
+
+
+        h3{
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}

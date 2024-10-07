@@ -1,0 +1,17 @@
+.button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #007BFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover{
+    background-color: blue;
+    transition: 1s;
+}

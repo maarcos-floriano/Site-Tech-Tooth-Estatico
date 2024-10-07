@@ -1,12 +1,14 @@
 import PropTypes from "prop-types";
 import { Button } from "@mui/material";
 import "./Navbar.css";
+import logo from "../../assets/Tech-Tooth-Logo.png";
 
 const Navbar = (props) => {
   return (
     <>
       <div className="navbar">
-        <div>
+        <div className="box">
+          <img className="logo" src={logo} width={'250px'} />
           <h1 className="navbar-title">Tech Tooth</h1>
         </div>
         <ul className="navbar-links">

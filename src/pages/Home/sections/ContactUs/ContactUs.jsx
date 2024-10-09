@@ -1,5 +1,4 @@
 import style from './ContactUs.module.css';
-// import fundo from "../../../../assets/ContactUs/ContactUs.png";
 import Form from "../../../../components/Form/Form.jsx"
 
 

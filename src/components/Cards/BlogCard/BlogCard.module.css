@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
     border: 2px solid gray;
     border-radius: 6px;
-
+    min-width: 250px;
 
     img{
         width: 100%;

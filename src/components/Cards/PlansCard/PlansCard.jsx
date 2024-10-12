@@ -6,14 +6,14 @@ import Button from "../../Button/Button.jsx";
 
 const PlansCard = ({ title, price, description}) => {
     return (
-        <Container maxWidth='sm' className={style['card_line']}>
+        <div  className={style['card_line']}>
             <div className={style['card']}>
                 <h3>{title}</h3>
                 <h4><span>R${price}</span>/mês</h4>
                 <p>{description}</p>
                 <Button text={'ASSINE AGORA'} margin={'5% 0 0 0'} border={'none'} padding={'3% 4%'} radius={'5px'}/>
             </div>
-        </Container>
+        </div>
     );
 }
 

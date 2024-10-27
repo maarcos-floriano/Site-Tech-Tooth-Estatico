@@ -9,7 +9,7 @@ const BlogCard = (props) =>{
             <div className={style['card_text']}>
                 <h3>{props.title}</h3>
                 <p>{props.description}</p>
-                <Button text={'Leia Mais'} width={'fit-content'} height={'fit-content'} padding={'2% 4%'} radius={'2px'} margin={'3% 0 0 0'} fontSize={'0.8rem'}/>
+                <Button text={'Leia Mais'} width={'fit-content'} height={'fit-content'} padding={'2% 2.5%'} radius={'5px'} margin={'3% 0 0 0'} fontSize={'1rem'}/>
             </div>
         </Container>
     )

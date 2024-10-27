@@ -2,10 +2,10 @@ import style from './ContactUs.module.css';
 import Form from "../../../../components/Form/Form.jsx"
 
 
-const ContactUs = () =>{
+const ContactUs = ({ id }) =>{
 
     return(
-        <div className={style['contactUs']} style={{backgroundImage: `url(${fundo})`}}>
+        <div className={style['contactUs']} id={id} style={{backgroundImage: `url(${fundo})`}}>
             <h1>Fale Conosco</h1>
             <h2>Estamos aqui para ajudar. Entre em contato conosco</h2>
             <Form/>

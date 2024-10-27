@@ -4,7 +4,7 @@ import BlogImage01 from '../../../../assets/Blog/blog01.png';
 import BlogImage02 from '../../../../assets/Blog/blog02.png';
 import BlogImage03 from '../../../../assets/Blog/blog03.png';
 
-const Blog = () => {
+const Blog = ({ id }) => {
     const listNews =[
         {
             'image': `${BlogImage01}`,
@@ -23,7 +23,7 @@ const Blog = () => {
         }
     ]
     return (
-        <div className={style['blog']}>
+        <div className={style['blog']} id={id}>
             <div className={style['blog-title']}>
                 <h1>Nosso Blog</h1>
                 <h2>Dicas, novidades e muito mais para você se manter atualizado</h2>

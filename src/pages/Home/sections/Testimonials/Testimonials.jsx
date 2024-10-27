@@ -5,7 +5,7 @@ import testimony01 from '../../../../assets/Testimony/testimony01.png';
 import testimony02 from '../../../../assets/Testimony/testimony02.png';
 import testimony03 from '../../../../assets/Testimony/testimony03.png';
 
-const Testimonials = () =>{
+const Testimonials = ({ id }) =>{
 
     const listTestimonials = [
         {
@@ -26,7 +26,7 @@ const Testimonials = () =>{
     ]
     
     return(
-        <div className={style['testimonials']}>
+        <div className={style['testimonials']} id={id}>
             <div className={style['testimonials-title']}>
                 <h1>Depoimentos</h1>
                 <h2>Veja o que nossos clientes estão dizendo</h2>

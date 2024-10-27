@@ -1,7 +1,7 @@
 import style from './Plans.module.css'
 import PlansCard from '../../../../components/Cards/PlansCard/PlansCard'
 
-const Plans = () => {
+const Plans = ({ id }) => {
 
     const listCard = [
         {
@@ -22,7 +22,7 @@ const Plans = () => {
     ]
 
     return (
-        <div className={style['plans']}>
+        <div className={style['plans']} id={id} style={{ width: '100%', padding: '4% 10%'}}>
             <div className={style['plans_title']}>
                 <h1>Planos e Preços</h1>
                 <h2>Escolha o plano que melhor atende às suas necessidades</h2>

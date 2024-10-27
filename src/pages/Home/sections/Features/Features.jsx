@@ -7,7 +7,7 @@ import ShowChartOutlinedIcon from '@mui/icons-material/ShowChartOutlined';
 import AllInboxOutlinedIcon from '@mui/icons-material/AllInboxOutlined';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 
-const Features = () => {
+const Features = ({ id }) => {
 
     let cards1 = [
         {
@@ -46,7 +46,7 @@ const Features = () => {
     ]
 
   return (
-    <div className={style['features']}>
+    <div className={style['features']} id={id}>
         <div className={style['features__title']}>
             <h1>Funcionalidades Principais</h1>
             <h2>Descubra o que Tech Tootch pode fazer por sua clínica</h2>

@@ -1,5 +1,6 @@
 import Home from './pages/Home/Home.jsx'
-import './App.css'
+import './App.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
 

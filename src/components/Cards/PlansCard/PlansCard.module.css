@@ -5,6 +5,7 @@
     align-items: baseline;
     height: fit-content;
     font-family: 'Montserrat', sans-serif;
+    min-width: 300px;
     
     .card {
         height: 100%;

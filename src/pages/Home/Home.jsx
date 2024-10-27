@@ -10,24 +10,24 @@ import Footer from "./sections/Footer/Footer.jsx";
 const Home = () => {
 
   const urls = [
-    { title: 'Home', href: '/' },
-    { title: 'Funcionalidades', href: '/funcionalidades' },
-    { title: 'Preços', href: '/precos' },
-    { title: 'Depoimentos', href: '/depoimento' },
-    { title: 'Blog', href: '/blog' },
-    { title: 'Contato', href: '/contato' }
+    { title: 'Home', href: '#home' },
+    { title: 'Funcionalidades', href: '#funcionalidades' },
+    { title: 'Preços', href: '#precos' },
+    { title: 'Depoimentos', href: '#depoimento' },
+    { title: 'Blog', href: '#blog' },
+    { title: 'Contato', href: '#contato' }
   ];
 
   return (
     <>
-        <Navbar items={urls}/>
-        <About/>
-        <Features/>
-        <Plans/>
-        <Testimonials/>
-        <Blog/>
-        <ContactUs/>
-        <Footer/>
+      <Navbar items={urls} />
+      <About id="home" />
+      <Features id="funcionalidades" />
+      <Plans id="precos" />
+      <Testimonials id="depoimento" />
+      <Blog id="blog" />
+      <ContactUs id="contato" />
+      <Footer />
     </>
   );
 };

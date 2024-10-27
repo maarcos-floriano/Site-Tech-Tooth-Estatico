@@ -1,27 +1,28 @@
 import PropTypes from "prop-types";
 import { Button } from "@mui/material";
 import "./Navbar.css";
-import logo from "../../assets/Tech-Tooth-Logo.png";
+import logo from "../../assets/Tech-Tooth-Logo.svg";
 
 const Navbar = (props) => {
   return (
     <>
       <div className="navbar">
-        <div className="box">
+        <div className="box" onClick={() => { window.location.href = '#home'; }}>
           <img className="logo" src={logo} width={'250px'} />
-          <h1 className="navbar-title">Tech Tooth</h1>
+          <h1 className="navbar-title">TECH TOOTH</h1>
         </div>
-        <ul className="navbar-links">
-          {props.items.map((item, index) => (
-            <li key={index} className="navbar-item">
-              <a href={item.href} className="navbar-link">
-                {item.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <div>
-        <Button variant="contained">Solicitar Demosntração</Button>
+
+        <div className="navbar-content">
+          <ul className="navbar-links">
+            {props.items.map((item, index) => (
+              <li key={index} className="navbar-item">
+                <a href={item.href} className="navbar-link">
+                  {item.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <Button variant="contained" style={{width: '40%', backgroundColor: '#007bff'}} onClick={() => { window.location.href = '#contato'; }}>Solicitar Demonstração</Button>
         </div>
       </div>
     </>

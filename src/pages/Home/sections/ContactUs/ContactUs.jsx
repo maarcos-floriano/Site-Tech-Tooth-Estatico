@@ -1,6 +1,7 @@
 import style from './ContactUs.module.css';
-import fundo from "../../../../assets/ContactUs/ContactUs.png";
+import fundo from "../../../../assets/contactUs.png";
 import Form from "../../../../components/Form/Form.jsx"
+import PropTypes from 'prop-types';
 
 
 const ContactUs = ({ id }) =>{
@@ -13,5 +14,8 @@ const ContactUs = ({ id }) =>{
         </div>
     )
 } 
+ContactUs.propTypes = {
+    id: PropTypes.string.isRequired,
+};
 
 export default ContactUs;

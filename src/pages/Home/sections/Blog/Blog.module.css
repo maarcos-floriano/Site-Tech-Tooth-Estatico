@@ -40,3 +40,9 @@
         gap: 2%;
     }
 }
+
+@media (max-width: 980px) {
+    .blog-news-card{
+        overflow-x: scroll;
+    }
+}

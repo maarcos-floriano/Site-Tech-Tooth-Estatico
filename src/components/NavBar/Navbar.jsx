@@ -1,9 +1,18 @@
 import PropTypes from "prop-types";
-import { Button } from "@mui/material";
 import "./Navbar.css";
 import logo from "../../assets/Tech-Tooth-Logo.svg";
 
 const Navbar = (props) => {
+  const [listMenu, setListMenu] = useState(false);
+
+  const showOptionsMenu = () => {
+    if (!listMenu) {
+      setListMenu(true);
+    } else {
+      setListMenu(false);
+    }
+  }
+
   return (
     <>
       <div className="navbar">

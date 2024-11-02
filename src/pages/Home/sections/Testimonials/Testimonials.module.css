@@ -37,3 +37,11 @@
         height: fit-content;
     }
 }
+
+
+@media (max-width: 520px){
+  .card_line{
+    flex-direction: column;
+    width: 100%;
+  }  
+} 
